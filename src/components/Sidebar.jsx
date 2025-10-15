@@ -15,7 +15,7 @@ function Sidebar() {
 
   return (
     <aside
-      className="sidebar d-flex flex-column bg-dark text-white vh-100 p-3"
+      className="sidebar d-flex flex-column text-white vh-100 p-3"
       style={{ width: "240px" }}
     >
       <div className="d-flex align-items-center mb-4">
