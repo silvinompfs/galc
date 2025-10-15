@@ -52,11 +52,6 @@
 }
 
 
-.sidebar hr {
-    border-color: var(--cor-menu-divider);
-    margin: 0.5rem 0;
-}
-
 .sidebar {
     background: var(--cor-menu-lateral);
     color: var(--cor-texto-branco);
@@ -88,7 +83,7 @@
 }
 
 .sidebar .nav-link:hover {
-  background-color: #415f8b;
+  background-color: var(--cor-menu-lateral);
   color: #ffffff;
   transform: translateX(4px);
 }
